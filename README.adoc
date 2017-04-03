@@ -1,31 +1,25 @@
-= Pivotal Cloud Foundry 101 Workshop
+= Pivotal Cloud Foundry Ops Workshop
 
 == Schedule
 
-This one day hands-on classroom style session will provide developers (and operators) with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs
+This one day workshop session will provide hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code, managing applications & installing/managing the platform. The session includes presentations, demos and hands on labs
 
  9:30 AM::
  * _Welcome & Introduction_ 
- 9:45 AM::
-* Session 1: _Cloud Native Enterprise Platform_ 
-10:15 AM::
-* Lab 1 - From Zero to Pushing Your First Application
-10:30 AM:: 
-* Break
-10:40 AM::
-* Session 2: _Pivotal Cloud Foundry Architecture_
-11:00 AM:: 
-* Lab 2 - Binding to Cloud Foundry Services
-11:15 AM:: 
-* Lab 3 - Operating your Application
-11:40 AM:: 
-* Session 3: _Pivotal Cloud Foundry for Operators_
-12:00 PM:: 
-* Lab 4 - Monitoring
+ 9:40 AM::
+* Session 1: _Pivotal Cloud Foundry Architecture Overview_ 
+10:20 AM::
+* Lab 1 - From Zero to Pushing Your First Application 
+* Lab 2 - Scale, Start & Stop yor app
+* Lab 3 - Checking your app logs
+10:45 AM:: 
+* Session 2: _Services Overview_
+11:05 PM:: 
+* Lab 4 - Connecting your app to a service
+11:30 PM:: 
+* Session 3: _Platform installation & Setup_ 
 12:30 PM:: 
 * Lunch
- 1:30 PM:: 
-* Demo - Multi-Cloud Demo with .Net & Docker
  1:50 PM::
 * Demo - Spring Cloud Services
  2:20 PM::
