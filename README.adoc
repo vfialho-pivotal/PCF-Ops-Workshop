@@ -1,0 +1,60 @@
+= Pivotal Cloud Foundry 101 Workshop
+
+== Schedule
+
+This one day hands-on classroom style session will provide developers (and operators) with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs
+
+ 9:30 AM::
+ * _Welcome & Introduction_ 
+ 9:45 AM::
+* Session 1: _Cloud Native Enterprise Platform_ 
+10:15 AM::
+* Lab 1 - From Zero to Pushing Your First Application
+10:30 AM:: 
+* Break
+10:40 AM::
+* Session 2: _Pivotal Cloud Foundry Architecture_
+11:00 AM:: 
+* Lab 2 - Binding to Cloud Foundry Services
+11:15 AM:: 
+* Lab 3 - Operating your Application
+11:40 AM:: 
+* Session 3: _Pivotal Cloud Foundry for Operators_
+12:00 PM:: 
+* Lab 4 - Monitoring
+12:30 PM:: 
+* Lunch
+ 1:30 PM:: 
+* Demo - Multi-Cloud Demo with .Net & Docker
+ 1:50 PM::
+* Demo - Spring Cloud Services
+ 2:20 PM::
+* Demo - Application Performance Monitoring on PCF
+ 2:45 PM:: 
+* Break
+ 3:00 PM::
+* Demo - CI/CD with Concourse
+ 3:30 PM::
+* Discussion - PoC Success Criteria & Use Cases
+ 4:00 PM::
+* Customer Perspective -- Core Logic
+ 5:00 PM::
+* Fireside Chat -- Andrew Clay Shafer
+
+== Course Materials
+
+* Session 1: link:presentations/Session_1_Cloud_Native_Enterprise.pptx[Welcome to the Cloud Native Enterprise]
+* Session 2: link:presentations/Session_2_Architecture_And_Operations.pptx[Pivotal Cloud Foundry Architecture and Operations]
+* Session 3: link:presentations/Session_3_Services_Overview.pptx[Pivotal Cloud Foundry Services]
+
+* Developer Workshop
+** Lab 1 - From Zero to Pushing Your First Application
+*** link:labs/lab1/lab.adoc[**Java** Application]
+*** link:labs/lab1/lab-ruby.adoc[**Ruby** Application]
+*** link:labs/lab1/lab-node.adoc[**NodeJS** Application]
+** link:labs/lab2/lab.adoc[Lab 2 - Binding to Cloud Foundry Services]
+** link:labs/lab3/lab.adoc[Lab 3 - Operating Your Application]
+** link:labs/lab4/lab.adoc[Lab 4 - Monitoring Your Application]
+
+
+
