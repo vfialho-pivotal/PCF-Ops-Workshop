@@ -1,4 +1,4 @@
-= Lab 4 - Monitoring your Application
+= Lab 3 - Monitoring your Application
 
 [abstract]
 --
