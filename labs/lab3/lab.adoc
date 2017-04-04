@@ -119,7 +119,7 @@ You can see how to connect to other third-party log management systems in the ht
 
 == Health Management
 
-Cloud Foundry's http://docs.cloudfoundry.org/concepts/architecture/#hm9k[Heatlh Manager] actively monitors the health of our application processes and will restart them should they crash.
+Cloud Foundry actively monitors the health of our application processes and will restart them should they crash.
 
 . If you don't have one already running, start a log tail for `workshop`.  Alternatively, you could view the logs using the papertrail app.
 +
