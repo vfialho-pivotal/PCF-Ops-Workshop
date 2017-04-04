@@ -24,19 +24,21 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 12:30 PM:: 
 * Lunch
 1:00 PM::
-* Demo - Spring Cloud Services
- 2:20 PM::
-* Demo - Application Performance Monitoring on PCF
- 2:45 PM:: 
+* Session 4: User Management
+**  link:presentations/Org-space-user-role.pdf[_Org, Space and Users_]
+**  link:presentations/Security-and-sso.pdf[_UAA & SSO Overview_]
+1:30 PM::
+* Lab 3 - link:labs/Lab-OrgsSpaces.adoc[**Managing Orgs/Spaces & Users (optional)**]
+1:50 PM:: 
+* Session 5: link:presentations/Buildpacks.pdf[_Buildpacks_]
+2:10 PM::
+* Session 6: link:presentations/Logging&Monitoring.pdf[_Log Management & Metrics_]
+2:30 PM::
 * Break
- 3:00 PM::
-* Demo - CI/CD with Concourse
- 3:30 PM::
-* Discussion - PoC Success Criteria & Use Cases
- 4:00 PM::
-* Customer Perspective -- Core Logic
- 5:00 PM::
-* Fireside Chat -- Andrew Clay Shafer
+2:45 PM::
+* Session 7: link:presentations/Patching_and_Upgrading.pdf[_Patching & Updates_]
+3:10 PM::
+* Session 8: Backup & Recovery
 
 
 
