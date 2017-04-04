@@ -1,0 +1,130 @@
+= Orgs & Spaces Lab
+Ravi Gadhia <rgadhia@pivotal.io>
+
+== Prerequisites
+
+* PCF Installation
+* 'cf' CLI Installed
+* Administrator privileges
+
+== Intro
+
+This lab will guide you through working with Orgs & Spaces on Cloud Foundry
+
+== Steps
+. Use *cf create-user*
++
+----
+cf create-user USERNAME PASSWORD
+----
++
+. Use *cf orgs*
++
+----
+cf orgs
+----
++
+. Use *cf org-users*
++
+----
+cf org-users ORG
+----
++
+. Use *cf set-org-role*
++
+----
+NAME:
+   set-org-role - Assign an org role to a user
+
+USAGE:
+   cf set-org-role USERNAME ORG ROLE
+
+ROLES:
+   'OrgManager' - Invite and manage users, select and change plans, and set spending limits
+   'BillingManager' - Create and manage the billing account and payment info
+   'OrgAuditor' - Read-only access to org info and reports
+----
++
+. Use *cf spaces*
++
+----
+NAME:
+   spaces - List all spaces in an org
+
+USAGE:
+   cf spaces
+----
++
+. Use *cf space-users*
++
+----
+NAME:
+   space-users - Show space users by role
+
+USAGE:
+   cf space-users ORG SPACE
+----
++
+. Use *cf set-space-role*
++
+----
+NAME:
+   set-space-role - Assign a space role to a user
+
+USAGE:
+   cf set-space-role USERNAME ORG SPACE ROLE
+
+ROLES:
+   'SpaceManager' - Invite and manage users, and enable features for a given space
+   'SpaceDeveloper' - Create and manage apps and services, and see logs and reports
+   'SpaceAuditor' - View logs, reports, and settings on this space
+----
++
+. Use *cf create-quota*
++
+In a terminal window, run the following command. Replace the placeholder attributes with the values for this quota plan:
++
+----
+cf create-quota QUOTA [-m TOTAL_MEMORY] [-i INSTANCE_MEMORY] [-r ROUTES] [-s SERVICE_INSTANCES] [--allow-paid-service-plans]
+The command accepts the following flags:
+
+-m: Total amount of memory
+-i: Maximum amount of memory an application instance can have (-1 represents an unlimited amount)
+-r: Total number of routes
+-s: Total number of service instances
+-allow-paid-service-plans: Can provision instances of paid service plans
+----
++
+Example:
+[source,bash]
++
+----
+$ cf create-quota small -m 2048M -i 1024M -r 10 -s 10 --allow-paid-service-plans
+----
++
+. Use cf set-quota
++
+----
+cf set-quota ORG QUOTA
+----
+. Create a New Quota Plan for a Space
++
+In a terminal window, run the following command to create a quota for a space. Replace the placeholder attributes with the values for this quota plan:
++
+----
+$ cf create-space-quota QUOTA [-i INSTANCE_MEMORY] [-m MEMORY] [-r ROUTES] [-s SERVICE_INSTANCES] [--allow-paid-service-plans]
+----
++
+Example:
++
+[source,bash]
+----
+$ cf create-space-quota big -i 1024M -m 4096M -r 20 -s 20 --allow-paid-service-plans
+----
++
+. Use cf set-space-quota
++
+----
+cf set-space-quota SPACE-NAME SPACE-QUOTA-NAME
+----
++
