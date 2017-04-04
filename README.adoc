@@ -13,15 +13,15 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 * Lab 2 - link:labs/lab2/lab.adoc[**Scale, Start & Stop yor app**]
 * Lab 3 - link:labs/lab3/lab.adoc[**Checking your app logs**]
 10:45 AM:: 
-* Session 2: _Services Overview_
+* Session 2: link:presentations/Session_2_Services_Overview.pdf[_Services Overview_]
 11:05 PM:: 
 * Lab 4 - link:labs/lab4/lab.adoc[**Connecting your app to a service**]
 * Lab 5 - link:labs/Lab-ServiceBroker.adoc[**Customizing a Service Broker (optional)**]
 11:30 PM:: 
-* Session 3: _Platform installation & Setup_ 
+* Session 3: link:presentations/Session_3_Deploying_PCF.pdf[_Platform installation & Setup_]
 12:30 PM:: 
 * Lunch
- 1:50 PM::
+1:00 PM::
 * Demo - Spring Cloud Services
  2:20 PM::
 * Demo - Application Performance Monitoring on PCF
@@ -35,21 +35,6 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 * Customer Perspective -- Core Logic
  5:00 PM::
 * Fireside Chat -- Andrew Clay Shafer
-
-== Course Materials
-
-* Session 1: link:presentations/Session_1_Cloud_Native_Enterprise.pptx[Welcome to the Cloud Native Enterprise]
-* Session 2: link:presentations/Session_2_Architecture_And_Operations.pptx[Pivotal Cloud Foundry Architecture and Operations]
-* Session 3: link:presentations/Session_3_Services_Overview.pptx[Pivotal Cloud Foundry Services]
-
-* Developer Workshop
-** Lab 1 - From Zero to Pushing Your First Application
-*** link:labs/lab1/lab.adoc[**Java** Application]
-*** link:labs/lab1/lab-ruby.adoc[**Ruby** Application]
-*** link:labs/lab1/lab-node.adoc[**NodeJS** Application]
-** link:labs/lab2/lab.adoc[Lab 2 - Binding to Cloud Foundry Services]
-** link:labs/lab3/lab.adoc[Lab 3 - Operating Your Application]
-** link:labs/lab4/lab.adoc[Lab 4 - Monitoring Your Application]
 
 
 
