@@ -13,9 +13,9 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 * Lab 2 - link:labs/lab2/lab.adoc[**Scale, Start & Stop yor app**]
 * Lab 3 - link:labs/lab3/lab.adoc[**Checking your app logs**]
 10:45 AM:: 
-* Session 2: Services::
- **link:presentations/Services_Intro.pdf[_Services Overview_]
- **link:presentations/ServiceBroker_Overview.pdf[_Service Broker Overview_]
+* Session 2: Services
+**  link:presentations/Services_Intro.pdf[_Services Overview_]
+**  link:presentations/ServiceBroker_Overview.pdf[_Service Broker Overview_]
 11:05 PM:: 
 * Lab 4 - link:labs/lab4/lab.adoc[**Connecting your app to a service**]
 * Lab 5 - link:labs/Lab-ServiceBroker.adoc[**Customizing a Service Broker (optional)**]
