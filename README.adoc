@@ -9,7 +9,7 @@ This one day workshop session will provide hands on experience with Pivotal Clou
  9:40 AM::
 * Session 1: _Pivotal Cloud Foundry Architecture Overview_ 
 10:20 AM::
-* Lab 1 - From Zero to Pushing Your First Application 
+* Lab 1 - link:labs/lab1/lab.adoc[**From Zero to Pushing Your First Application**]
 * Lab 2 - Scale, Start & Stop yor app
 * Lab 3 - Checking your app logs
 10:45 AM:: 
