@@ -22,7 +22,7 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 * Lab 4 - link:labs/lab4/lab.adoc[**Connecting your app to a service**]
 * Lab 5 - link:labs/Lab-ServiceBroker.adoc[**Customizing a Service Broker (optional)**]
 11:30 PM:: 
-* Session 3: link:presentations/Session_3_Deploying_PCF.pdf[_Platform installation & Setup_]
+* Session 3: link:presentations/Deploying_PCF.pdf[_Platform installation & Setup_]
 12:30 PM:: 
 * Lunch
 1:00 PM::
