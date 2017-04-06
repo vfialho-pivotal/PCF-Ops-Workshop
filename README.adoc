@@ -30,7 +30,7 @@ This one day workshop session will provide hands on experience with Pivotal Clou
 **  link:presentations/Org-space-user-role.pdf[_Org, Space and Users_]
 **  link:presentations/Security-and-sso.pdf[_UAA & SSO Overview_]
 1:30 PM::
-* Lab 6 - link:labs/Lab-OrgsSpaces.adoc[**Managing Orgs/Spaces & Users (optional)**]
+* Lab 6 - link:labs/Lab-OrgsSpaces.adoc[**Managing Orgs/Spaces & Users**]
 1:50 PM:: 
 * Session 5: link:presentations/Buildpacks.pdf[_Buildpacks_]
 2:10 PM::
